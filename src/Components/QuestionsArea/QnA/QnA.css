@@ -1,0 +1,32 @@
+.QnA > form {
+	width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+}
+
+.QnA select, .QnA input, .QnA button {
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+.completion {
+    border: 1px solid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+}
+
+.completion div > p:first-child {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* .completion div > p:last-child {
+    display: none;
+} */
